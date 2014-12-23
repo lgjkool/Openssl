@@ -13,7 +13,9 @@
 #include <openssl/err.h>
 
 // Simple structure to keep track of the handle, and
-// of what needs to be freed later DHEHHEHEEE WAT DACHT JE.
+// of what needs to be freed later DHEHHEHEEE WAT DACHT JE. D
+// aanpassing 32-12-14 voor git check
+
 typedef struct {
     int socket;
     SSL *sslHandle;
